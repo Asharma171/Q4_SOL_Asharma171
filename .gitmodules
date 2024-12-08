@@ -1,3 +1,4 @@
-[submodule "submodules/sol-micro-loan"]
-	path = submodules/sol-micro-loan
+
+[submodule "capstone_project/sol-micro-loan"]
+	path = capstone_project/sol-micro-loan
 	url = https://github.com/Asharma171/sol-micro-loan

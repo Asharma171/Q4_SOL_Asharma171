@@ -1,0 +1,17 @@
+[toolchain]
+
+[features]
+skip-lint = true
+
+[programs.localnet]
+anchor_vault = "DezimRrAi4TKQmFJBtZfw5Kv1cHqP3Cdmpm4pKQp58Nw"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
